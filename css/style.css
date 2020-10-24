@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+header {
+    background-color: #F9FFF2;
+    padding-top: 15px;
+    background-image: url('../images/MaskGroup.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+/*selector decendiente*/
+nav ul {
+    display: flex;
+    padding: 0;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #8e8e8e;
+}
+
+header .header-info {
+    text-align: center;
+    padding: 100px 0;
+}
+
+header .header-info h1 {
+    font-size: 50px
+}
+
+header .header-info p span {
+    color: #32BBA4;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+section article {
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+article button {
+    width: 100%;
+    background-color: #410FF8;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+article ul {
+    padding: 0;
+    margin-top: 15px;
+}
+article ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+article ul li i {
+    color: purple;
+}
